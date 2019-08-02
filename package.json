@@ -8,15 +8,6 @@
     "shims",
     "dist"
   ],
-  "browser": {
-    "lib/client.js": "./dist/aliyun-oss-sdk.js",
-    "mime": "./shims/mime.js",
-    "urllib": "./shims/xhr.js",
-    "utility": "./shims/utility.js",
-    "crypto": "./shims/crypto/crypto.js",
-    "fs": false,
-    "child_process": false
-  },
   "scripts": {
     "build-change-log": "standard-version",
     "test": "mocha -t 60000 -r thunk-mocha -r should test/node/*.test.js",
