@@ -1,5 +1,5 @@
 {
-  "name": "ali-oss",
+  "name": "@inner-desktop/ali-oss",
   "version": "6.1.1",
   "description": "aliyun oss(object storage service) node client",
   "main": "lib/client.js",
